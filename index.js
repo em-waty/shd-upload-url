@@ -158,4 +158,4 @@ export async function main(params) {
   } catch (err) {
     return { statusCode: 500, headers: corsHeaders, body: JSON.stringify({ error: "Internal Server Error", details: err.message }) };
   }
-}
+}xxx
